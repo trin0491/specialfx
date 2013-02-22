@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry including="app" kind="src" path=""/>
+	<classpathentry excluding="controller/|view/" kind="src" path="app"/>
+	<classpathentry kind="src" path="app/controller"/>
+	<classpathentry kind="src" path="app/view"/>
+	<classpathentry excluding="src/layout/component/field/|src/ux/grid/menu/|src/resizer/|locale/|src/ux/grid/|src/dom/|src/data/|src/data/association/|src/button/|src/core/src/dom/|src/grid/header/|src/draw/engine/|src/flash/|src/ux/layout/|src/fx/target/|src/grid/property/|src/fx/|src/draw/|src/picker/|src/form/field/|src/ux/data/|src/tree/plugin/|src/toolbar/|src/core/src/util/|src/core/src/lang/|src/chart/|builds/|src/menu/|src/diag/layout/|src/data/writer/|src/chart/axis/|src/view/|src/grid/feature/|src/tip/|src/layout/container/|src/ux/event/|src/layout/component/|src/data/reader/|src/dd/|src/core/src/class/|src/container/|src/tree/|src/panel/|src/app/|src/window/|src/tab/|src/state/|src/layout/|src/core/src/version/|src/|src/chart/theme/|src/ux/ajax/|src/ux/form/|src/direct/|src/util/|src/data/proxy/|src/ux/statusbar/|src/grid/|src/core/src/perf/|src/selection/|src/ux/DataView/|src/layout/container/boxOverflow/|src/slider/|src/core/src/|src/grid/column/|src/form/action/|src/ux/grid/filter/|src/core/src/misc/|src/grid/plugin/|src/chart/series/|src/form/|src/ux/" kind="src" path="ext"/>
+	<classpathentry kind="src" path="ext/builds"/>
+	<classpathentry kind="src" path="ext/locale"/>
+	<classpathentry excluding="layout/component/field/|ux/grid/menu/|resizer/|ux/grid/|dom/|data/|data/association/|button/|core/src/dom/|grid/header/|draw/engine/|flash/|ux/layout/|fx/target/|grid/property/|fx/|draw/|picker/|form/field/|ux/data/|tree/plugin/|toolbar/|core/src/util/|core/src/lang/|chart/|menu/|diag/layout/|data/writer/|chart/axis/|view/|grid/feature/|tip/|layout/container/|ux/event/|layout/component/|data/reader/|dd/|core/src/class/|container/|tree/|panel/|app/|window/|tab/|state/|layout/|core/src/version/|chart/theme/|ux/ajax/|ux/form/|direct/|util/|data/proxy/|ux/statusbar/|grid/|core/src/perf/|selection/|ux/DataView/|layout/container/boxOverflow/|slider/|core/src/|grid/column/|form/action/|ux/grid/filter/|core/src/misc/|grid/plugin/|chart/series/|form/|ux/" kind="src" path="ext/src"/>
+	<classpathentry kind="src" path="ext/src/app"/>
+	<classpathentry kind="src" path="ext/src/button"/>
+	<classpathentry excluding="axis/|theme/|series/" kind="src" path="ext/src/chart"/>
+	<classpathentry kind="src" path="ext/src/chart/axis"/>
+	<classpathentry kind="src" path="ext/src/chart/series"/>
+	<classpathentry kind="src" path="ext/src/chart/theme"/>
+	<classpathentry kind="src" path="ext/src/container"/>
+	<classpathentry excluding="dom/|util/|lang/|class/|version/|perf/|misc/" kind="src" path="ext/src/core/src"/>
+	<classpathentry kind="src" path="ext/src/core/src/class"/>
+	<classpathentry kind="src" path="ext/src/core/src/dom"/>
+	<classpathentry kind="src" path="ext/src/core/src/lang"/>
+	<classpathentry kind="src" path="ext/src/core/src/misc"/>
+	<classpathentry kind="src" path="ext/src/core/src/perf"/>
+	<classpathentry kind="src" path="ext/src/core/src/util"/>
+	<classpathentry kind="src" path="ext/src/core/src/version"/>
+	<classpathentry excluding="association/|writer/|reader/|proxy/" kind="src" path="ext/src/data"/>
+	<classpathentry kind="src" path="ext/src/data/association"/>
+	<classpathentry kind="src" path="ext/src/data/proxy"/>
+	<classpathentry kind="src" path="ext/src/data/reader"/>
+	<classpathentry kind="src" path="ext/src/data/writer"/>
+	<classpathentry kind="src" path="ext/src/dd"/>
+	<classpathentry kind="src" path="ext/src/diag/layout"/>
+	<classpathentry kind="src" path="ext/src/direct"/>
+	<classpathentry kind="src" path="ext/src/dom"/>
+	<classpathentry excluding="engine/" kind="src" path="ext/src/draw"/>
+	<classpathentry kind="src" path="ext/src/draw/engine"/>
+	<classpathentry kind="src" path="ext/src/flash"/>
+	<classpathentry excluding="field/|action/" kind="src" path="ext/src/form"/>
+	<classpathentry kind="src" path="ext/src/form/action"/>
+	<classpathentry kind="src" path="ext/src/form/field"/>
+	<classpathentry excluding="target/" kind="src" path="ext/src/fx"/>
+	<classpathentry kind="src" path="ext/src/fx/target"/>
+	<classpathentry excluding="header/|property/|feature/|column/|plugin/" kind="src" path="ext/src/grid"/>
+	<classpathentry kind="src" path="ext/src/grid/column"/>
+	<classpathentry kind="src" path="ext/src/grid/feature"/>
+	<classpathentry kind="src" path="ext/src/grid/header"/>
+	<classpathentry kind="src" path="ext/src/grid/plugin"/>
+	<classpathentry kind="src" path="ext/src/grid/property"/>
+	<classpathentry excluding="component/field/|container/|component/|container/boxOverflow/" kind="src" path="ext/src/layout"/>
+	<classpathentry excluding="field/" kind="src" path="ext/src/layout/component"/>
+	<classpathentry kind="src" path="ext/src/layout/component/field"/>
+	<classpathentry excluding="boxOverflow/" kind="src" path="ext/src/layout/container"/>
+	<classpathentry kind="src" path="ext/src/layout/container/boxOverflow"/>
+	<classpathentry kind="src" path="ext/src/menu"/>
+	<classpathentry kind="src" path="ext/src/panel"/>
+	<classpathentry kind="src" path="ext/src/picker"/>
+	<classpathentry kind="src" path="ext/src/resizer"/>
+	<classpathentry kind="src" path="ext/src/selection"/>
+	<classpathentry kind="src" path="ext/src/slider"/>
+	<classpathentry kind="src" path="ext/src/state"/>
+	<classpathentry kind="src" path="ext/src/tab"/>
+	<classpathentry kind="src" path="ext/src/tip"/>
+	<classpathentry kind="src" path="ext/src/toolbar"/>
+	<classpathentry excluding="plugin/" kind="src" path="ext/src/tree"/>
+	<classpathentry kind="src" path="ext/src/tree/plugin"/>
+	<classpathentry kind="src" path="ext/src/util"/>
+	<classpathentry excluding="grid/menu/|grid/|layout/|data/|event/|ajax/|form/|statusbar/|DataView/|grid/filter/" kind="src" path="ext/src/ux"/>
+	<classpathentry kind="src" path="ext/src/ux/ajax"/>
+	<classpathentry kind="src" path="ext/src/ux/data"/>
+	<classpathentry kind="src" path="ext/src/ux/DataView"/>
+	<classpathentry kind="src" path="ext/src/ux/event"/>
+	<classpathentry kind="src" path="ext/src/ux/form"/>
+	<classpathentry excluding="menu/|filter/" kind="src" path="ext/src/ux/grid"/>
+	<classpathentry kind="src" path="ext/src/ux/grid/filter"/>
+	<classpathentry kind="src" path="ext/src/ux/grid/menu"/>
+	<classpathentry kind="src" path="ext/src/ux/layout"/>
+	<classpathentry kind="src" path="ext/src/ux/statusbar"/>
+	<classpathentry kind="src" path="ext/src/view"/>
+	<classpathentry kind="src" path="ext/src/window"/>
+	<classpathentry kind="src" path="resources/theme"/>
+	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path=""/>
+</classpath>
