@@ -3,24 +3,19 @@ Ext.define('xsfx.view.Viewport', {
     extend: 'Ext.container.Viewport',
     requires:[
         'Ext.tab.Panel',
-        'Ext.layout.container.Border'
     ],
 
     layout: {
-        type: 'border'
+        type: 'fit'
     },
 
     items: [{
-        region: 'west',
-        xtype: 'panel',
-        title: 'west',
-        width: 150
-    },{
         region: 'center',
         xtype: 'panel',
         items: [ {
         	xtype: 'quotebook',
         	width: '20em',
+        	rows: 5
         }, {
         	xtype: 'button',
         	text: 'Toggle Dealable'

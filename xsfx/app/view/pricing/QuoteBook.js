@@ -3,58 +3,46 @@ Ext.define("xsfx.view.pricing.QuoteBook", {
 	alias : 'widget.quotebook',
 	layout : 'column',
 
-	border: 3,
-	style: {
-		borderColor: 'black',
-		borderStyle: 'solid',
-		background: '#090909',			
+	config : {
+		rows : 5
 	},
 	
-	defaults : {
-		columnWidth : 0.5,
-		layout : {
-			type : 'vbox',
-//			reserveScrollbar: true
-		},
+	style : {
+		background : '#090909',
 	},
 
-	items : [ {
-		xtype : 'container',
-		defaults : {
-			width : '100%',
-			margin: 5,
-			items : [ {
-				xtype : 'price',
-				margin: '0 5 0 0'
-			}, {
-				xtype : 'amount'
-			} ]
+	layout : {
+		type : 'table',
+		columns : 2,
+		tableAttrs : {
+			style : {
+				width : '100%'
+			}
 		},
-		items : [ {
-			xtype : 'quotetile',
-		}, {
-			xtype : 'quotetile',
-		}, {
-			xtype : 'quotetile',
-		} ]
-	}, {
-		xtype : 'container',
-		defaults : {
-			width : '100%',
-			margin: 5,			
-			items : [ {
-				xtype : 'amount',
-				margin: '0 5 0 0'					
-			}, {
-				xtype : 'price'
-			} ]
-		},
-		items : [ {
-			xtype : 'quotetile',
-		}, {
-			xtype : 'quotetile',
-		}, {
-			xtype : 'quotetile',
-		} ]
-	} ],
+		tdAttrs : {
+			style : {
+				padding : '3px'
+			}
+		}
+	},
+
+	defaults : {
+		xtype : 'quotetile',
+	},
+
+	initComponent : function() {
+		var me = this;
+		me.callParent(arguments);
+		
+		for (var i=0; i< me.rows * 2; ++i) {
+			me.add({
+				items : [ {
+					xtype : i % 2 == 0 ? 'price' : 'amount',
+					margin : '0 5 0 0'
+				}, {
+					xtype : i % 2 == 0 ? 'amount' : 'price'
+				} ]
+			});			
+		}
+	},
 });
