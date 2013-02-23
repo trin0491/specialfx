@@ -17,9 +17,13 @@ Ext.define('xsfx.view.Viewport', {
         width: 150
     },{
         region: 'center',
-        xtype: 'tabpanel',
-        items:[{
-            title: 'Center Tab 1'
-        }]
+        xtype: 'panel',
+        items: [ {
+        	xtype: 'quotebook',
+        	width: '20em',
+        }, {
+        	xtype: 'button',
+        	text: 'Toggle Dealable'
+        }]       	
     }]
 });
