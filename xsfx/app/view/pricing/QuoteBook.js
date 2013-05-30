@@ -3,6 +3,13 @@ Ext.define("xsfx.view.pricing.QuoteBook", {
 	alias : 'widget.quotebook',
 	layout : 'column',
 
+	requires: [
+		'Ext.layout.container.Table',
+        'xsfx.view.pricing.QuoteTile',
+        'xsfx.view.pricing.LeftQuoteTile', 
+        'xsfx.view.pricing.RightQuoteTile', 
+	],
+
 	config : {
 		rows : 5
 	},
@@ -26,23 +33,12 @@ Ext.define("xsfx.view.pricing.QuoteBook", {
 		}
 	},
 
-	defaults : {
-		xtype : 'quotetile',
-	},
-
 	initComponent : function() {
 		var me = this;
 		me.callParent(arguments);
 		
 		for (var i=0; i< me.rows * 2; ++i) {
-			me.add({
-				items : [ {
-					xtype : i % 2 == 0 ? 'price' : 'amount',
-					margin : '0 5 0 0'
-				}, {
-					xtype : i % 2 == 0 ? 'amount' : 'price'
-				} ]
-			});			
+			me.add({ xtype: i % 2 == 0 ? 'leftquotetile':'rightquotetile' });			
 		}
 	},
 });

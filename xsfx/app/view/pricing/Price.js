@@ -2,10 +2,10 @@ Ext.define("xsfx.view.pricing.Price", {
     extend: 'Ext.Component',
     alias: 'widget.price',
     baseCls: 'x-price',    
-    autoEl: 'span',    
+    autoEl: 'span',
     renderTpl: [
        '{prefix}',
-       '<span id="{id}-pipsEl" class="{baseCls}-pips-{ui}">{pips}</span>',
+       '<span id="{id}-pips" class="{baseCls}-pips-{ui}">{pips}</span>',
        '{pipsDecs}',
     ],
     
@@ -15,5 +15,5 @@ Ext.define("xsfx.view.pricing.Price", {
     	pipsDecs: '5'
     },
 	
-    childEls: ['pipsEl'],   
+    childEls: ['pips'],   
 });

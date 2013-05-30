@@ -3,7 +3,11 @@ Ext.define('xsfx.view.Viewport', {
     extend: 'Ext.container.Viewport',
     requires:[
         'Ext.tab.Panel',
+        'xsfx.view.pricing.QuoteBook',
+        'xsfx.controller.MainController'
     ],
+
+    controller: 'xsfx.controller.MainController',
 
     layout: {
         type: 'fit'
@@ -14,11 +18,13 @@ Ext.define('xsfx.view.Viewport', {
         xtype: 'panel',
         items: [ {
         	xtype: 'quotebook',
+            itemId: 'quoteBook',
         	width: '20em',
         	rows: 5
         }, {
         	xtype: 'button',
-        	text: 'Toggle Dealable'
+            itemId: 'lockButton',
+        	text: 'Lock'
         }]       	
     }]
 });

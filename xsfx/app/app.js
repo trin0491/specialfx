@@ -1,10 +1,2 @@
-Ext.application({
-    controllers: ["Main"],
-
-    views: ["Main"],
-
-
-    name: 'xsfx',
-
-    autoCreateViewport: true
-});
+Ext.syncRequire("xsfx.Application");
+Ext.create("xsfx.Application");

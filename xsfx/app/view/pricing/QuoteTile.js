@@ -2,53 +2,24 @@ Ext.define("xsfx.view.pricing.QuoteTile", {
     extend: 'Ext.container.Container',
     alias: 'widget.quotetile',
 
-    baseCls: 'x-tile',
-    dealableCls: 'dealable',
-    nonDealableCls: 'nonDealable',
-    
-	isDealable: false,
+    requires: [ 
+    	'xsfx.controller.QuoteTileController',         
+    	'xsfx.view.pricing.Price', 
+        'xsfx.view.pricing.Amount',	
+	],
+    controller: 'xsfx.controller.QuoteTileController',
 
+    baseCls: 'x-tile',
+    
 	initComponent: function() {
 		var me = this;
-		me.addClsWithUI(me.nonDealableCls);
-		this.callParent();
+		me.callParent(arguments);
+		me.addEvents('dblclick', 'mousedown', 'mouseup');
 	},
 	
 	onRender: function() {
 		var me = this;
-		me.callParent(arguments);	
-		
-		var listeners = {
-			scope: me,
-			mousedown: me.onMouseDown,
-			mouseup: me.onMouseUp,
-			dblclick: me.onDblClick
-		};
-		me.mon(me.getEl(), listeners);
-	},
-	
-	onMouseDown: function() {
-		var me = this;
-	},
-	
-	onMouseUp: function() {
-		var me = this;
-	},
-	
-	onDblClick: function() {
-		var me = this;
-		me.toggleDealable();
-	},
-	
-	toggleDealable: function(value) {
-		var me = this;
-		value = value === undefined ? !me.isDealable : value;
-		if (me.isDealable !== value) {
-			if (me.rendered) {
-				me.removeClsWithUI(value ? me.nonDealableCls : me.dealableCls);
-				me.addClsWithUI(value ? me.dealableCls : me.nonDealableCls);
-			} 
-			this.isDealable = value;
-		}
-	}
+		me.callParent(arguments);			
+		me.relayEvents(this.getEl(), ['dblclick', 'mousedown', 'mouseup']);
+	},			
 });
