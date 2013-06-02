@@ -7,7 +7,7 @@ Ext.define("xsfx.view.pricing.Side", {
     config: {
         ccy: null,
         side: null
-    }
+    },
 
     renderTpl: [
        '<div id="{id}-side">{side}</div><div>{ccy}</div>'
