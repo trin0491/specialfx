@@ -1,12 +1,12 @@
-Ext.define("xsfx.view.pricing.Amount", {
+Ext.define("xsfx.view.pricing.Side", {
     extend: 'Ext.Component',
     alias: 'widget.side',
     baseCls: 'x-side',
     autoEl: 'div',
     
     config: {
-        ccy: null;
-        side: null;
+        ccy: null,
+        side: null
     }
 
     renderTpl: [
