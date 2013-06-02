@@ -21,12 +21,13 @@ Ext.define('xsfx.controller.QuoteTileController', {
 				mouseup: 'onMouseUp',								
 			}
 		},
+		side: true
 	},
 
 	observe: {
 		eventBus: {
-			unlocked: 'onUnlocked',
-			locked: 'onLocked' 
+			lockChange: 'onLockChange',
+			ccyPairChange: 'onCcyPairChange'
 		}
 	},	
 
@@ -38,12 +39,17 @@ Ext.define('xsfx.controller.QuoteTileController', {
 		this.startPriceUpdates();
 	},
 
-	onUnlocked: function() {
-		this.changeState('dealable');
+	onLockChange: function(isLocked) {
+		if (isLocked) {
+			this.changeState('nonDealable');			
+		} else {
+			this.changeState('dealable');
+		}
 	},
 
-	onLocked: function() {
-		this.changeState('nonDealable');
+	onCcyPairChange: function(ccyPair) {
+		var me = this;
+		me.getSide().ccy.setHTML(ccyPair.get('ccy1'));
 	},
 
 	startPriceUpdates: function(price) {

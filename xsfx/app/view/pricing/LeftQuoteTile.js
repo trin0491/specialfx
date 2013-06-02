@@ -4,6 +4,7 @@ Ext.define("xsfx.view.pricing.LeftQuoteTile", {
 
 	items : [  {
 		xtype: 'side',
+		itemId: 'side',
 		componentCls: 'x-side-left',
 		renderData: {
 			side: 'BUY',

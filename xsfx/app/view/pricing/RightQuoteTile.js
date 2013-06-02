@@ -3,6 +3,7 @@ Ext.define("xsfx.view.pricing.RightQuoteTile", {
     alias: 'widget.rightquotetile',
 	items : [ {
 		xtype: 'side',
+		itemId: 'side',
 		componentCls: 'x-side-right',
 		renderData: {
 			side: 'SELL',

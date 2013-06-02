@@ -5,7 +5,7 @@ Ext.define('xsfx.controller.MainController', {
 
 	config: {
 		eventBus: null,
-		locked: true
+		isLocked: true
 	},
 
 	control: {
@@ -24,15 +24,15 @@ Ext.define('xsfx.controller.MainController', {
 	},
 
 	onCcyPairChange: function(combo, ccypairs) {
-		console.log("selected");
+		var me = this;
+		me.getEventBus().fireEvent('ccyPairChange', ccypairs[0]);
 	},
 
 	toggleLock : function() {
 		var me = this;
-		var e = me.locked ? 'unlocked' : 'locked';
-		me.locked = ! me.locked;
-		var t = me.locked ? 'Unlock' : 'Lock';
+		me.isLocked = ! me.isLocked;
+		var t = me.isLocked ? 'Unlock' : 'Lock';
 		me.getLockButton().setText(t);
-		me.getEventBus().fireEvent(e);
+		me.getEventBus().fireEvent('lockChange', me.isLocked);
 	},
 });

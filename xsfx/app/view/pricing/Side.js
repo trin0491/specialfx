@@ -10,7 +10,7 @@ Ext.define("xsfx.view.pricing.Side", {
     },
 
     renderTpl: [
-       '<div id="{id}-side">{side}</div><div>{ccy}</div>'
+       '<div id="{id}-side">{side}</div><div id="{id}-ccy">{ccy}</div>'
     ],
     
     renderData: {

@@ -6,12 +6,12 @@ Ext.define("xsfx.Application", {
         observable: 'Ext.util.Observable'
     },
 
-    constructor: function (config) {
+    constructor: function(config) {
         this.callParent(arguments);
         this.mixins.observable.constructor.call(this, config);
         this.addEvents(
-            'locked',
-            'unlocked'
+            'lockChange',
+            'ccyPairChange'
         );
     },    	
 

@@ -4,7 +4,7 @@ Ext.define('xsfx.store.CcyPairs', {
     model: 'xsfx.model.CcyPair',
 
     data: [ 
-        { name: 'EURUSD' },
-        { name: 'GBPUSD' },
+        { name: 'EURUSD', ccy1: 'EUR', ccy2: 'USD' },
+        { name: 'GBPUSD', ccy1: 'GBP', ccy2: 'USD' },
     ],
 });
