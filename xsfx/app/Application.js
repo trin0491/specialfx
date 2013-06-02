@@ -22,7 +22,8 @@ Ext.define("xsfx.Application", {
 	    		fn: function() {
 	    			return me;
 	    		}
-	    	}
+	    	},
+	    	ccyPairStore: 'xsfx.store.CcyPairs' 
 	    });
 
 	    // Set up QuickTips and create the Viewport

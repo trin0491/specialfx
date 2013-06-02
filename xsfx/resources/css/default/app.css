@@ -2,8 +2,8 @@
 
 .x-tile-default {
   padding: 0.1em;
-  height: 6em;
-  width: 9em;
+  height: 5em;
+  width: 8em;
   text-align: center;
   border-radius: 0.5em;
   -webkit-touch-callout: none;
@@ -70,7 +70,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4e391', end
 
 .x-side-default {
     color: white;
-    float: left;
     font-size: 0.8em;
     padding: 0px 2px;
 }

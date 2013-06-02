@@ -52,6 +52,9 @@ Ext.define('xsfx.controller.QuoteTileController', {
 			var taskCfg = {
 				run : function() {
 					var p = Math.floor(Math.random() * 100);
+					if (p.toString().length == 1) {
+						p = "0" + p;
+					}
 					me.getPrice().pips.setHTML(p);
 				},
 				interval : 200

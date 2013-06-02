@@ -28,7 +28,7 @@ Ext.define("xsfx.view.pricing.QuoteBook", {
 		},
 		tdAttrs : {
 			style : {
-				padding : '3px'
+				padding : '2px'
 			}
 		}
 	},

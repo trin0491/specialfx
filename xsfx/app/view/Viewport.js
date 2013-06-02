@@ -3,6 +3,7 @@ Ext.define('xsfx.view.Viewport', {
     extend: 'Ext.container.Viewport',
     requires:[
         'Ext.tab.Panel',
+        'xsfx.view.pricing.CcyPairCombo',
         'xsfx.view.pricing.QuoteBook',
         'xsfx.controller.MainController'
     ],
@@ -17,14 +18,21 @@ Ext.define('xsfx.view.Viewport', {
         region: 'center',
         xtype: 'panel',
         items: [ {
-        	xtype: 'quotebook',
-            itemId: 'quoteBook',
-        	width: '20em',
-        	rows: 5
+            xtype: 'container',
+            layout: 'hbox',
+            items: [ {
+                xtype: 'ccypaircombo',                
+                itemId: 'ccyPairCombo'
+            }, {
+                xtype: 'button',
+                itemId: 'lockButton',
+                text: 'Unlock'
+            } ]
         }, {
-        	xtype: 'button',
-            itemId: 'lockButton',
-        	text: 'Lock'
+            xtype: 'quotebook',
+            itemId: 'quoteBook',
+            width: '17em',
+            rows: 1
         }]       	
     }]
 });
