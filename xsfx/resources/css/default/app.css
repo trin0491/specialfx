@@ -60,5 +60,27 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4e391', end
 }
 
 .x-price-pips-default {
-	font-size: x-large;
+	font-size: 3em;
+}
+
+.x-price-decimals-default {
+    vertical-align: top;
+    font-size: 1.5em;
+}
+
+.x-side-default {
+    color: white;
+    float: left;
+    font-size: 0.8em;
+    padding: 0px 2px;
+}
+
+.x-side-left {
+  text-align: left;
+  float: left;  
+}
+
+.x-side-right {
+  text-align: right;
+  float: right;  
 }

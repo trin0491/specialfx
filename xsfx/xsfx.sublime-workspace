@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"fo",
+				"font-size"
+			],
+			[
+				"t",
+				"text-top"
+			],
+			[
 				"onL",
 				"onLocked"
 			],
@@ -62,10 +70,6 @@
 			[
 				"f",
 				"found"
-			],
-			[
-				"fo",
-				"for	for (…) {…} (Improved Native For-Loop)"
 			],
 			[
 				"for",
@@ -219,7 +223,7 @@
 			"file": "app/view/pricing/QuoteTile.js",
 			"settings":
 			{
-				"buffer_size": 627,
+				"buffer_size": 706,
 				"line_ending": "Windows"
 			}
 		},
@@ -251,8 +255,64 @@
 			"file": "resources/css/default/app.css",
 			"settings":
 			{
-				"buffer_size": 6688,
+				"buffer_size": 6937,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/view/pricing/LeftQuoteTile.js",
+			"settings":
+			{
+				"buffer_size": 318,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/view/pricing/RightQuoteTile.js",
+			"settings":
+			{
+				"buffer_size": 286,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/view/pricing/PricePrefix.js",
+			"settings":
+			{
+				"buffer_size": 253,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/view/pricing/Price.js",
+			"settings":
+			{
+				"buffer_size": 424,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/view/pricing/Amount.js",
+			"settings":
+			{
+				"buffer_size": 241,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/view/pricing/Side.js",
+			"settings":
+			{
+				"buffer_size": 320,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "test.html",
+			"settings":
+			{
+				"buffer_size": 1104,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -283,6 +343,8 @@
 	},
 	"file_history":
 	[
+		"/C/Users/richard/Dev/src/i2037/scripts/deploy.sh",
+		"/C/Users/richard/Dev/src/specialfx/xsfx/index.html",
 		"/C/Users/richard/Dev/src/specialfx/xsfx/resources/css/default/app.css",
 		"/C/Users/richard/Dev/src/specialfx/xsfx/app/view/Viewport.js",
 		"/C/Users/richard/Dev/src/HelloTouch/app.json",
@@ -298,7 +360,6 @@
 		"/C/Users/richard/Dev/src/specialfx/xsfx/app/app.js",
 		"/C/Users/richard/Dev/src/specialfx/xsfx/app/view/pricing/QuoteTile.js",
 		"/C/Users/richard/Dev/src/specialfx/xsfx/app/view/pricing/Amount.js",
-		"/C/Users/richard/Dev/src/specialfx/xsfx/index.html",
 		"/C/Users/richard/Dev/src/specialfx/xsfx/app/app_loader.js",
 		"/C/Users/richard/Dev/src/specialfx/xsfx/app/controller/Main.js",
 		"/C/Users/richard/Dev/src/i2037/app/partials/wineview.html",
@@ -308,7 +369,6 @@
 		"/C/Users/richard/Dev/src/i2037/app/index.html",
 		"/C/Users/richard/Dev/src/i2037/app/js/app.js",
 		"/C/Users/richard/Dev/src/i2037/test/e2e/scenarios.js",
-		"/C/Users/richard/Dev/src/i2037/scripts/deploy.sh",
 		"/C/Users/richard/Dev/src/i2037/scripts/build.sh",
 		"/C/Users/richard/Dev/src/i2037/test/unit/controllersSpec.js",
 		"/C/Users/richard/Dev/src/i2037/app/partials/recipes.html",
@@ -407,6 +467,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"pipsDecs",
+			"span",
+			"1009",
 			"isDealable",
 			"dealable",
 			"nonDealable",
@@ -518,7 +581,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 6,
 			"sheets":
 			[
 				{
@@ -555,15 +618,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 627,
+						"buffer_size": 706,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								470,
-								470
+								330,
+								330
 							]
 						],
 						"settings":
@@ -627,7 +690,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 615.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -665,15 +728,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6688,
+						"buffer_size": 6937,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								117,
-								117
+								6913,
+								6913
 							]
 						],
 						"settings":
@@ -683,7 +746,208 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
+						"translation.y": 473.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/view/pricing/LeftQuoteTile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 318,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								318,
+								318
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/view/pricing/RightQuoteTile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 286,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								202,
+								202
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/view/pricing/PricePrefix.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 253,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								248,
+								248
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "app/view/pricing/Price.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 424,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								174,
+								188
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "app/view/pricing/Amount.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 241,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								241
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "app/view/pricing/Side.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 320,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								143,
+								143
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "test.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1104,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								597,
+								378
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 15.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -733,6 +997,18 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"quoteti",
+				"app\\view\\pricing\\QuoteTile.js"
+			],
+			[
+				"app.cs",
+				"resources\\css\\default\\app.css"
+			],
+			[
+				"left",
+				"app\\view\\pricing\\LeftQuoteTile.js"
+			],
 			[
 				"app.",
 				"resources\\css\\default\\app.css"
