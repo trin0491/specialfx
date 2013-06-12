@@ -5,9 +5,7 @@ Ext.define("xsfx.view.pricing.QuoteTile", {
     requires: [ 
     	'xsfx.controller.QuoteTileController',         
     	'xsfx.view.pricing.Price', 
-    	'xsfx.view.pricing.PricePrefix',     	
-        'xsfx.view.pricing.Amount',	
-        'xsfx.view.pricing.Side',	
+        'xsfx.view.pricing.Side',
 	],
     controller: 'xsfx.controller.QuoteTileController',
 

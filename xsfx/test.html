@@ -6,12 +6,29 @@
     <link rel="stylesheet" href="resources/css/default/app.css">
     <style type="text/css">
 
+        .tile {
+            position: relative;
+          padding: 0.1em;
+          width: 9em;
+          height: 6em;
+          text-align: center;
+          border-radius: 0.5em;
+          -webkit-touch-callout: none;
+          -webkit-user-select: none;
+          -khtml-user-select: none;
+          -moz-user-select: none;
+          -ms-user-select: none;
+          user-select: none; 
+          cursor: pointer;
+        }
+
         .price {
             color: white;
         }
 
         .pips {
             font-size: 3em;
+            vertical-align: top;
         }
 
         .decimals {
@@ -21,13 +38,22 @@
 
         .side {
             color: white;
-            float: right;
+/*            float: right;*/
             font-size: 0.8em;
-            padding: 0px 3px;
-/*            position: absolute;
-            right: 1px;
+            /*padding: 0px 3px;*/
+            position: absolute;
+            right: 2px;
             top: 1px;
-*/        }
+            text-align: right;
+        }
+
+        .fwd-price {
+            color: white;
+            position: absolute;
+            right: 2px;
+            bottom: 1px;
+            text-align: right;            
+        }
     </style>
 <!--[if gte IE 9]>
   <style type="text/css">
@@ -39,11 +65,20 @@
 </head>
 <body class="x-body">
     
-    <div class="x-tile x-tile-default x-nonDealable x-tile-nonDealable x-tile-default-nonDealable" id="rightquotetile-1007">
-        <div class="side"><div>BUY</div><div>EUR</div></div>
-        <div class="price">1.32</div>
-        <div class="price"><span class="pips">23</span><span class="decimals">50</span></div>
+    <div class="x-tile tile x-nonDealable x-tile-nonDealable x-tile-default-nonDealable" id="rightquotetile-1007">
+        <div class="side">
+            <p>BUY</p><p>EUR</p>
+        </div>
+        <div class="price">
+            <div>1.32</div>
+            <div><span class="pips">23</span><span class="decimals">50</span></div>
+            <div class="fwd-price">
+                <p>0.00</p><p>1.3223</p>
+            </div>            
+        </div>
     </div>
+
+    <script type="text/javascript" src="app/Person.js"></script>
 
 </body>
 </html>

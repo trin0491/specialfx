@@ -52,16 +52,26 @@ Ext.define('xsfx.controller.QuoteTileController', {
 		me.getSide().ccy.setHTML(ccyPair.get('ccy1'));
 	},
 
+	onPriceChange: function(px) {
+		var me = this;
+		var pxEl = me.getPrice();
+		pxEl.pips.setHTML(px.getPips());
+		pxEl.prefix.setHTML(px.getPrefix());
+		pxEl.decimals.setHTML(px.getDecimals());
+		pxEl.pts.setHTML(px.getPts());
+		pxEl.allIn.setHTML(px.getAllIn().toFixed(6));
+	},
+
 	startPriceUpdates: function(price) {
 		var me = this;
 		if (!me.task) {
+			var px = Ext.create('xsfx.model.Price');
+			px.mon(px, 'propertyChange', me.onPriceChange, me);
 			var taskCfg = {
 				run : function() {
-					var p = Math.floor(Math.random() * 100);
-					if (p.toString().length == 1) {
-						p = "0" + p;
-					}
-					me.getPrice().pips.setHTML(p);
+					var r = Math.random() * 0.01;
+					r = 1.32 + r
+					px.setSpot(r);
 				},
 				interval : 200
 			};
@@ -107,8 +117,8 @@ Ext.define('xsfx.controller.QuoteTileController', {
 		}
 		var view = me.getView();
 		var oldState = me.currentState;
-		me.changeState('traded');
 		me.stopPriceUpdates();
+		me.changeState('traded');
 		var task = new Ext.util.DelayedTask(function() {
 			me.changeState(oldState);
 			me.startPriceUpdates();

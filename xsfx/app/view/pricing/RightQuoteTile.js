@@ -1,6 +1,7 @@
 Ext.define("xsfx.view.pricing.RightQuoteTile", {
     extend: 'xsfx.view.pricing.QuoteTile',
     alias: 'widget.rightquotetile',
+
 	items : [ {
 		xtype: 'side',
 		itemId: 'side',
@@ -10,9 +11,8 @@ Ext.define("xsfx.view.pricing.RightQuoteTile", {
 			ccy: 'EUR'
 		}
 	}, {
-		xtype: 'priceprefix'
-	}, {
 		xtype : 'price',
-		itemId : 'price'
+		itemId : 'price',
+		align: 'right'
 	} ],
 });

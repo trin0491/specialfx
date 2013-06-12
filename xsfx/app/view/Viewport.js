@@ -31,7 +31,7 @@ Ext.define('xsfx.view.Viewport', {
         }, {
             xtype: 'quotebook',
             itemId: 'quoteBook',
-            width: '17em',
+            width: '20em',
             rows: 1
         }]       	
     }]

@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"tex",
+				"text-align"
+			],
+			[
 				"fo",
 				"font-size"
 			],
@@ -212,58 +216,10 @@
 	"buffers":
 	[
 		{
-			"file": "app/view/pricing/QuoteBook.js",
-			"settings":
-			{
-				"buffer_size": 745,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/view/pricing/QuoteTile.js",
-			"settings":
-			{
-				"buffer_size": 706,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/controller/MainController.js",
-			"settings":
-			{
-				"buffer_size": 395,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/controller/QuoteTileController.js",
-			"settings":
-			{
-				"buffer_size": 1995,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/Application.js",
-			"settings":
-			{
-				"buffer_size": 708,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "resources/css/default/app.css",
-			"settings":
-			{
-				"buffer_size": 6937,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "app/view/pricing/LeftQuoteTile.js",
 			"settings":
 			{
-				"buffer_size": 318,
+				"buffer_size": 336,
 				"line_ending": "Windows"
 			}
 		},
@@ -271,15 +227,7 @@
 			"file": "app/view/pricing/RightQuoteTile.js",
 			"settings":
 			{
-				"buffer_size": 286,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/view/pricing/PricePrefix.js",
-			"settings":
-			{
-				"buffer_size": 253,
+				"buffer_size": 331,
 				"line_ending": "Windows"
 			}
 		},
@@ -287,23 +235,31 @@
 			"file": "app/view/pricing/Price.js",
 			"settings":
 			{
-				"buffer_size": 424,
+				"buffer_size": 948,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/view/pricing/Amount.js",
+			"file": "app/controller/QuoteTileController.js",
 			"settings":
 			{
-				"buffer_size": 241,
+				"buffer_size": 2216,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/view/pricing/Side.js",
+			"file": "resources/css/default/app.css",
 			"settings":
 			{
-				"buffer_size": 320,
+				"buffer_size": 7207,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/view/pricing/QuoteTile.js",
+			"settings":
+			{
+				"buffer_size": 624,
 				"line_ending": "Windows"
 			}
 		},
@@ -311,7 +267,15 @@
 			"file": "test.html",
 			"settings":
 			{
-				"buffer_size": 1104,
+				"buffer_size": 1917,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/view/pricing/Side.js",
+			"settings":
+			{
+				"buffer_size": 391,
 				"line_ending": "Windows"
 			}
 		}
@@ -343,23 +307,32 @@
 	},
 	"file_history":
 	[
+		"/C/Users/richard/Dev/src/specialfx/xsfx/app/view/pricing/ForwardPoints.js",
+		"/C/Users/richard/Dev/src/specialfx/xsfx/app/Application.js",
+		"/C/Users/richard/Dev/src/specialfx/xsfx/app/store/CcyPairs.js",
+		"/C/Users/richard/Dev/src/specialfx/xsfx/app/model/CcyPair.js",
+		"/C/Users/richard/Dev/src/specialfx/xsfx/app/view/Viewport.js",
+		"/C/Users/richard/Dev/src/specialfx/xsfx/app/view/pricing/Side.js",
+		"/C/Users/richard/Dev/src/specialfx/xsfx/app/view/pricing/Amount.js",
+		"/C/Users/richard/Dev/src/specialfx/xsfx/app/view/pricing/QuoteTile.js",
+		"/C/Users/richard/Dev/src/specialfx/xsfx/app/controller/MainController.js",
+		"/C/Users/richard/Dev/src/specialfx/xsfx/resources/css/default/app.css",
+		"/C/Users/richard/Dev/src/specialfx/xsfx/test.html",
+		"/C/Users/richard/Dev/src/specialfx/xsfx/app/controller/QuoteTileController.js",
+		"/C/Users/richard/Dev/src/specialfx/xsfx/app/view/pricing/CcyPairCombo.js",
+		"/C/Users/richard/Dev/src/specialfx/xsfx/app/view/pricing/QuoteBook.js",
+		"/C/Users/richard/Dev/src/specialfx/xsfx/app/view/pricing/RightQuoteTile.js",
+		"/C/Users/richard/Dev/src/specialfx/xsfx/app/view/pricing/PricePrefix.js",
+		"/C/Users/richard/Dev/src/specialfx/xsfx/app/view/pricing/Price.js",
 		"/C/Users/richard/Dev/src/i2037/scripts/deploy.sh",
 		"/C/Users/richard/Dev/src/specialfx/xsfx/index.html",
-		"/C/Users/richard/Dev/src/specialfx/xsfx/resources/css/default/app.css",
-		"/C/Users/richard/Dev/src/specialfx/xsfx/app/view/Viewport.js",
 		"/C/Users/richard/Dev/src/HelloTouch/app.json",
 		"/C/Users/richard/Dev/src/HelloWorld/src/Delegate.java",
 		"/C/Users/richard/Dev/src/HelloWorld/src/Main.java",
 		"/C/Users/richard/Dev/src/HelloWorld/src/Application.java",
-		"/C/Users/richard/Dev/src/specialfx/xsfx/app/view/pricing/RightQuoteTile.js",
 		"/C/Users/richard/Dev/src/specialfx/xsfx/app/view/pricing/LeftQuoteTile.js",
-		"/C/Users/richard/Dev/src/specialfx/xsfx/app/Application.js",
-		"/C/Users/richard/Dev/src/specialfx/xsfx/app/view/pricing/Price.js",
 		"/C/Users/richard/Dev/src/specialfx/xsfx/app/view/Main.js",
-		"/C/Users/richard/Dev/src/specialfx/xsfx/app/controller/MainController.js",
 		"/C/Users/richard/Dev/src/specialfx/xsfx/app/app.js",
-		"/C/Users/richard/Dev/src/specialfx/xsfx/app/view/pricing/QuoteTile.js",
-		"/C/Users/richard/Dev/src/specialfx/xsfx/app/view/pricing/Amount.js",
 		"/C/Users/richard/Dev/src/specialfx/xsfx/app/app_loader.js",
 		"/C/Users/richard/Dev/src/specialfx/xsfx/app/controller/Main.js",
 		"/C/Users/richard/Dev/src/i2037/app/partials/wineview.html",
@@ -452,7 +425,7 @@
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 22.0
 	},
 	"find_in_files":
 	{
@@ -467,6 +440,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"aliggn",
+			"locked",
+			"Station",
 			"pipsDecs",
 			"span",
 			"1009",
@@ -581,24 +557,24 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/view/pricing/QuoteBook.js",
+					"file": "app/view/pricing/LeftQuoteTile.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 745,
+						"buffer_size": 336,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								402,
-								407
+								321,
+								321
 							]
 						],
 						"settings":
@@ -614,46 +590,19 @@
 				},
 				{
 					"buffer": 1,
-					"file": "app/view/pricing/QuoteTile.js",
+					"file": "app/view/pricing/RightQuoteTile.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 706,
+						"buffer_size": 331,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								330,
-								330
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/controller/MainController.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 395,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								319,
-								319
+								321,
+								321
 							]
 						],
 						"settings":
@@ -663,6 +612,35 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/view/pricing/Price.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 948,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								860,
+								860
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 14.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -673,15 +651,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1995,
+						"buffer_size": 2216,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1153,
-								1153
+								396,
+								396
 							]
 						],
 						"settings":
@@ -690,26 +668,55 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 728.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "app/Application.js",
+					"file": "resources/css/default/app.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 708,
+						"buffer_size": 7207,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								383,
-								383
+								125,
+								125
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 336.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/view/pricing/QuoteTile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 624,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								218,
+								218
 							]
 						],
 						"settings":
@@ -723,221 +730,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "resources/css/default/app.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6937,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6913,
-								6913
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 473.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
 					"buffer": 6,
-					"file": "app/view/pricing/LeftQuoteTile.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 318,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								318,
-								318
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "app/view/pricing/RightQuoteTile.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 286,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								202,
-								202
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "app/view/pricing/PricePrefix.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 253,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								248,
-								248
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "app/view/pricing/Price.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 424,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								174,
-								188
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "app/view/pricing/Amount.js",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 241,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								241
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "app/view/pricing/Side.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 320,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								143,
-								143
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 12,
 					"file": "test.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1104,
+						"buffer_size": 1917,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								597,
-								378
+								1647,
+								1647
 							]
 						],
 						"settings":
@@ -947,7 +753,36 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 15.0,
+						"translation.y": 308.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/view/pricing/Side.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 391,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								200,
+								200
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -957,7 +792,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 22.0
 	},
 	"input":
 	{
@@ -989,7 +824,7 @@
 	"project": "xsfx.sublime-project",
 	"replace":
 	{
-		"height": 62.0
+		"height": 40.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -997,6 +832,78 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"sid",
+				"app\\view\\pricing\\Side.js"
+			],
+			[
+				"test.h",
+				"test.html"
+			],
+			[
+				"quotetil",
+				"app\\view\\pricing\\QuoteTile.js"
+			],
+			[
+				"",
+				"app\\view\\pricing\\Price.js"
+			],
+			[
+				"app.c",
+				"resources\\css\\default\\app.css"
+			],
+			[
+				"test",
+				"test.html"
+			],
+			[
+				"app.css",
+				"resources\\css\\default\\app.css"
+			],
+			[
+				"price",
+				"app\\view\\pricing\\Price.js"
+			],
+			[
+				"right",
+				"app\\view\\pricing\\RightQuoteTile.js"
+			],
+			[
+				"quotetile",
+				"app\\view\\pricing\\QuoteTile.js"
+			],
+			[
+				"appli",
+				"app\\Application.js"
+			],
+			[
+				"ccypairs",
+				"app\\store\\CcyPairs.js"
+			],
+			[
+				"ccypai",
+				"app\\model\\CcyPair.js"
+			],
+			[
+				"main",
+				"app\\controller\\MainController.js"
+			],
+			[
+				"ccypairco",
+				"app\\view\\pricing\\CcyPairCombo.js"
+			],
+			[
+				"application",
+				"app\\Application.js"
+			],
+			[
+				"side",
+				"app\\view\\pricing\\Side.js"
+			],
+			[
+				"amount",
+				"app\\view\\pricing\\Amount.js"
+			],
 			[
 				"quoteti",
 				"app\\view\\pricing\\QuoteTile.js"
@@ -1011,10 +918,6 @@
 			],
 			[
 				"app.",
-				"resources\\css\\default\\app.css"
-			],
-			[
-				"app.css",
 				"resources\\css\\default\\app.css"
 			],
 			[
@@ -1072,10 +975,6 @@
 			[
 				"index.ht",
 				"app\\index.html"
-			],
-			[
-				"",
-				"test\\unit\\controllersSpec.js"
 			],
 			[
 				"controllesp",

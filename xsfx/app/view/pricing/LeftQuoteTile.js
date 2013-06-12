@@ -11,10 +11,8 @@ Ext.define("xsfx.view.pricing.LeftQuoteTile", {
 			ccy: 'EUR'
 		}
 	}, {
-		xtype: 'priceprefix'
-	}, {
 		xtype : 'price',
-		itemId : 'price',					
-		margin : '0 5 0 0'
-	}, ],
+		itemId : 'price',
+		align: 'left'					
+	} ],
 });
